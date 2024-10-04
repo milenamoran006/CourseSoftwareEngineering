@@ -1,6 +1,4 @@
-public class Gerente extends Trabajador{
-    private int id;
-    private String nombre;
+public class Gerente extends Trabajador{    
     private double salarioIntegral;    
 
     public Gerente(int id, String nombre, double salarioIntegral){

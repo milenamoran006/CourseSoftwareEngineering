@@ -1,6 +1,4 @@
 public class Consultor extends Trabajador{
-    private int id;
-    private String nombre;
     private double comision;
     private double venta;
 
