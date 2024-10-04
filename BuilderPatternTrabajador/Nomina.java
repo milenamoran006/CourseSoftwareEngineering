@@ -8,6 +8,9 @@ public class Nomina{
         this.nombre=nombre;
         this.trabajador=trabajador;
     }
+    //sobrecarga al metodo constructor uno que tiene parametros y otro que no tiene
+    public Nomina(){
+    }
 
     public void generarPagos(Trabajador[] t){
         for(int i = 0; i < t.length; i++){
